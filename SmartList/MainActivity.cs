@@ -16,14 +16,16 @@ namespace SmartList
             SetContentView(Resource.Layout.Main);
 
             // Get our UI controls from the loaded layout
-            TextView existingLists = FindViewById<TextView>(Resource.Id.ExistingList);
-            Button createListButton = FindViewById<Button>(Resource.Id.CreateListButton);
-            Button createRecipeButton = FindViewById<Button>(Resource.Id.CreateNewRecipeButton);
+            ListView existingLists = FindViewById<ListView>(Resource.Id.existingListView);
+            Button createListButton = FindViewById<Button>(Resource.Id.createListButton);
+            Button createRecipeButton = FindViewById<Button>(Resource.Id.createNewRecipeButton);
+
+           
 
             createListButton.Click += (sender, e) =>
              {
                  var intent = new Intent(this, typeof(ListCreateActivity));
-                 
+                 StartActivity(intent);
              };
         }
     }

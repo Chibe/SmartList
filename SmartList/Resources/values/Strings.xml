@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">SmartList</string>
+  <string name="itemName">Eggsalad</string>
+  <string name="listName">Grocery List</string>
 </resources>

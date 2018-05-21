@@ -44,26 +44,29 @@ namespace SmartList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040003
-			public const int CreateListButton = 2130968579;
-			
-			// aapt resource value: 0x7f040004
-			public const int CreateNewRecipeButton = 2130968580;
-			
-			// aapt resource value: 0x7f040005
-			public const int ExistingList = 2130968581;
-			
-			// aapt resource value: 0x7f040006
-			public const int ExistingListView = 2130968582;
-			
-			// aapt resource value: 0x7f040000
-			public const int addItem = 2130968576;
+			// aapt resource value: 0x7f040001
+			public const int addItem = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int linearLayout1 = 2130968578;
+			public const int addRecipe = 2130968578;
 			
-			// aapt resource value: 0x7f040001
-			public const int listItems = 2130968577;
+			// aapt resource value: 0x7f040006
+			public const int createListButton = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int createNewRecipeButton = 2130968583;
+			
+			// aapt resource value: 0x7f040005
+			public const int existingListView = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int itemList = 2130968580;
+			
+			// aapt resource value: 0x7f040000
+			public const int itemTextAdd = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int listName = 2130968579;
 			
 			static Id()
 			{
@@ -99,6 +102,12 @@ namespace SmartList
 			
 			// aapt resource value: 0x7f030000
 			public const int app_name = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int itemName = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int listName = 2130903042;
 			
 			static String()
 			{
